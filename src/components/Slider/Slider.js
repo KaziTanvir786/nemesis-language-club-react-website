@@ -7,7 +7,7 @@ const Slider = () => {
         height: '500px',
         width: '1000px'
     };
-
+    // data fetch for slider 
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('./services.JSON')
@@ -16,6 +16,7 @@ const Slider = () => {
     }, [])
 
     return (
+        // slider section 
         <Carousel style={carouselStyle}>
             <Carousel.Item>
                 <img

@@ -4,9 +4,7 @@ import { Button, Col, FormControl, InputGroup, Row } from 'react-bootstrap';
 import Slider from '../Slider/Slider';
 
 const TopItems = () => {
-    const colStyle = {
-        backgroundColor: '#212529'
-    };
+    // top items styles 
     const registerStyle = {
         width: '300px',
         paddingTop: '70px'
@@ -14,7 +12,7 @@ const TopItems = () => {
     const buttonStyle = {
         width: '280px'
     }
-    // const googleIcon = <FontAwesomeIcon icon={faGoogle} />
+
     return (
         <div>
             <Row>

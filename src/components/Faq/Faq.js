@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Accordion, FormControl, InputGroup } from 'react-bootstrap';
 
 const Faq = () => {
+    // faq styles
     const accordionStyle = {
         margin: '20px 50px 0px 50px'
     }
@@ -14,6 +15,7 @@ const Faq = () => {
         marginTop: '50px',
     }
     return (
+        // faq section 
         <div style={accordionStyle}>
             <h1>Frequently Asked Questions</h1>
             <Accordion style={{ textAlign: 'left' }}>

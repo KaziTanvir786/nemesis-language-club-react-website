@@ -2,8 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
+// header styles
 const headerStyle = {
     position: 'sticky',
     left: '0',
@@ -13,6 +14,7 @@ const headerStyle = {
 };
 
 const Header = () => {
+    // header component styles
     const activeStyle = {
         fontWeight: "bold",
         color: "#0d6efd"

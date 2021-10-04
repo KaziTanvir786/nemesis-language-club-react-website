@@ -12,6 +12,7 @@ const About = () => {
         height: 'auto'
     }
     return (
+        // about section
         <div>
             <Row>
                 <Col sm={8}>

@@ -3,11 +3,13 @@ import { Row, Spinner } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = () => {
+    // services styles
     const spinnerStyle = {
         marginTop: '200px',
         width: '100px',
         height: '100px'
     }
+    // data fetching
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('./services.JSON')
@@ -15,6 +17,7 @@ const Services = () => {
             .then(data => setServices(data));
     }, [])
     return (
+        // all services
         <div style={{ marginLeft: '20px', marginRight: '20px' }}>
             <h1 style={{ textAlign: "left" }}>Our Language Development Programs</h1>
             <hr />

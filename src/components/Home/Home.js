@@ -10,7 +10,8 @@ import TopItems from '../TopItems/TopItems';
 
 const Home = () => {
     return (
-        <div>
+        // home and the middle routing
+        < div >
             <Row>
                 <Col sm={12}>
                     <TopItems></TopItems>
@@ -37,7 +38,7 @@ const Home = () => {
                     </Router>
                 </Col>
             </Row>
-        </div>
+        </div >
     );
 };
 

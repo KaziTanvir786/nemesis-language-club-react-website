@@ -2,6 +2,7 @@ import { Button } from 'react-bootstrap';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import './Service.css'
+import Services from '../Services/Services';
 
 const Service = (props) => {
     const { name, thumbnail, description, instructor, ratings, fees, totalEnrolled } = props.service;
@@ -14,6 +15,7 @@ const Service = (props) => {
         height: '200px'
     };
     return (
+        // individual Service view card 
         <Col>
             <Card className="card">
                 <Card.Img style={imgStyle} variant="top" src={thumbnail} />

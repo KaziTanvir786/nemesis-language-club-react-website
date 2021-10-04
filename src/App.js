@@ -13,6 +13,7 @@ import Faq from './components/Faq/Faq';
 function App() {
   return (
     <div className="App">
+      {/* routing */}
       <Router>
         <Header></Header>
         <Switch>

@@ -5,6 +5,7 @@ import './MiddleItems.css'
 
 const MiddleItems = () => {
     return (
+        // middle items section 
         <div>
             <div className="middle-container">
                 <NavLink to="/home/english"><Button className="middle-button english"><h1>English</h1></Button></NavLink>
