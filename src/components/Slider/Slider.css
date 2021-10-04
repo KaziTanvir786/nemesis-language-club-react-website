@@ -1,0 +1,9 @@
+img{
+    height: 500px;
+}
+.carouselText{
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 700px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
