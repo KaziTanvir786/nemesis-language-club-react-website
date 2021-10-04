@@ -8,6 +8,7 @@ const English = () => {
         height: '140px'
     }
     return (
+        // english details
         <Alert style={alertStyle} variant="success">
             <div style={{ fontSize: '20px' }}>
                 English is the internatinal language. Not only the native English speakers but also the entire world pushes up this language so far, so anyone in this modern era needs to learn fluent English as soon as possible to make the career broader, and increase the productivity. We <span style={{ color: 'salmon' }}>NEMESIS Language School</span> are offering different kinds of English offline development services, to make your dream come true.
