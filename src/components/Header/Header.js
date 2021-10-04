@@ -1,21 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom';
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 const headerStyle = {
     position: 'sticky',
     left: '0',
     top: '0',
     width: '100%',
-    zIndex: '1'
+    zIndex: '5'
 };
 
 const Header = () => {
     const activeStyle = {
         fontWeight: "bold",
-        color: "brown"
+        color: "#0d6efd"
     };
     const normalStyle = {
         textDecoration: 'none',
@@ -33,7 +33,7 @@ const Header = () => {
     const userIcon = <FontAwesomeIcon icon={faUser} />
     return (
         <div style={headerStyle}>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar style={{ height: '80px' }} collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand style={navTitleStyle} href="#home"><strong>NEMESIS</strong> <small style={smallTextStyle}>Language School</small></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -41,7 +41,8 @@ const Header = () => {
                         <Nav.Link><NavLink style={normalStyle} activeStyle={activeStyle} to="/home">Home</NavLink></Nav.Link>
                         <Nav.Link><NavLink style={normalStyle} activeStyle={activeStyle} to="/services">Services</NavLink></Nav.Link>
                         <Nav.Link><NavLink style={normalStyle} activeStyle={activeStyle} to="/about">About</NavLink></Nav.Link>
-                        <Nav.Link><NavLink style={normalStyle} activeStyle={activeStyle} to="/other">Other</NavLink></Nav.Link>
+                        <Nav.Link><NavLink style={normalStyle} activeStyle={activeStyle} to="/faq">FAQ</NavLink></Nav.Link>
+                        <Nav.Link><NavLink style={normalStyle} activeStyle={activeStyle} to="/other">{userIcon}</NavLink></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

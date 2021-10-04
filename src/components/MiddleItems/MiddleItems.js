@@ -1,20 +1,16 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './MiddleItems.css'
 
 const MiddleItems = () => {
-
-    const activeStyle = {
-        fontWeight: "bold",
-        color: "red"
-    };
     return (
         <div>
             <div className="middle-container">
-                <NavLink activeStyle={activeStyle} to="/home/english"><div className="middle-card"><h1>English</h1></div></NavLink>
-                <NavLink activeStyle={activeStyle} to="/home/japanese"><div className="middle-card"><h1>Japanese</h1></div></NavLink>
-                <NavLink activeStyle={activeStyle} to="/home/french"><div className="middle-card"><h1>French</h1></div></NavLink>
-                <NavLink activeStyle={activeStyle} to="/home/german"><div className="middle-card"><h1>German</h1></div></NavLink>
+                <NavLink to="/home/english"><Button className="middle-button english"><h1>English</h1></Button></NavLink>
+                <NavLink to="/home/japanese"><Button className="middle-button japanese"><h1>Japanese</h1></Button></NavLink>
+                <NavLink to="/home/french"><Button className="middle-button french"><h1>French</h1></Button></NavLink>
+                <NavLink to="/home/german"><Button className="middle-button german"><h1>German</h1></Button></NavLink>
             </div>
         </div>
     );

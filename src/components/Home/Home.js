@@ -19,7 +19,6 @@ const Home = () => {
             <Row>
                 <Col sm>
                     <Router>
-                        <MiddleItems></MiddleItems>
                         <Switch>
                             <Route path="/home/english">
                                 <English></English>
@@ -34,6 +33,7 @@ const Home = () => {
                                 <German></German>
                             </Route>
                         </Switch>
+                        <MiddleItems></MiddleItems>
                     </Router>
                 </Col>
             </Row>

@@ -30,7 +30,7 @@ const TopItems = () => {
                             aria-describedby="basic-addon2"
                         />
                     </InputGroup>
-                    <Button style={buttonStyle}> <FontAwesomeIcon icon={['fab', 'google']} /> Submit </Button>
+                    <Button style={buttonStyle}> Submit </Button>
                 </Col>
             </Row>
         </div>

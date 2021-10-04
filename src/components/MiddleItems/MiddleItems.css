@@ -3,17 +3,23 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.middle-card{
-    background-color: rgb(0, 82, 82);
+.middle-button{
+    width: 300px;
+    text-decoration: none;
     color: white;
     margin: 5px;
     padding: 30px;
     border-radius: 10px;
 }
-.middle-card:hover{
-    background-color: rgb(0, 212, 212);
-    color: black;
-    margin: 5px;
-    padding: 30px;
-    border-radius: 10px;
+.english{
+    background-color: darkslategray;
+}
+.japanese{
+    background-color: darkslateblue;
+}
+.french{
+    background-color: tomato;
+}
+.german{
+    background-color: darkgreen;
 }

@@ -1,7 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const footerStyle = {
-    backgroundColor: "brown",
+    display: 'flex',
+    justifyContent: 'center',
+    backgroundColor: "#212529",
     position: 'fixed',
     textAlign: 'center',
     padding: '20px',
@@ -14,7 +17,7 @@ const footerStyle = {
 const Footer = () => {
     return (
         <div style={footerStyle}>
-            Hello
+            <small style={{ color: 'white' }}>All rights reserved to Nemesis Education, 2020 Ⓒ</small>
         </div>
     );
 };

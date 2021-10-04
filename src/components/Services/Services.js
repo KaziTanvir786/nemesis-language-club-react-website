@@ -5,8 +5,8 @@ import Service from '../Service/Service';
 const Services = () => {
     const spinnerStyle = {
         marginTop: '200px',
-        width: '200px',
-        height: '200px'
+        width: '100px',
+        height: '100px'
     }
     const [services, setServices] = useState([]);
     useEffect(() => {
@@ -15,7 +15,9 @@ const Services = () => {
             .then(data => setServices(data));
     }, [])
     return (
-        <div>
+        <div style={{ marginLeft: '20px', marginRight: '20px' }}>
+            <h1 style={{ textAlign: "left" }}>Our Language Development Programs</h1>
+            <hr />
             {
                 services.length === 0 ?
                     <Spinner style={spinnerStyle} animation="grow" />
