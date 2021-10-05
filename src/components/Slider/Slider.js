@@ -63,13 +63,13 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={services[5]?.thumbnail}
+                    src={services[7]?.thumbnail}
                     alt="First slide"
                 />
                 <Carousel.Caption className="carouselText">
-                    <h3>{services[5]?.name}</h3>
+                    <h3>{services[7]?.name}</h3>
                     <p>Instructor: <span style={{ color: 'salmon' }}> {services[5]?.instructor}</span></p>
-                    <p>{services[5]?.description}</p>
+                    <p>{services[7]?.description}</p>
                     <h4 style={{ color: 'goldenrod' }}>Fees: ${services[5]?.fees}</h4>
                     <Button>Enroll now</Button>
                 </Carousel.Caption>

@@ -20,7 +20,7 @@ const TopItems = () => {
                     <Slider></Slider>
                 </Col>
                 <Col style={registerStyle} sm={3}>
-                    <h2>Do you want <br /> to join us?</h2>
+                    <h3>Do you want <br /> to join us?</h3>
                     <InputGroup className="mb-3">
                         <FormControl
                             placeholder="Enter your email"

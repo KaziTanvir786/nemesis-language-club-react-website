@@ -18,13 +18,13 @@ const About = () => {
                 <Col sm={8}>
                     <div style={aboutDivStyle}>
 
-                        <h1>About Us</h1>
+                        <h2>About Us</h2>
                         <hr />
                         <p style={{ fontSize: '20px' }}>
                             <span style={{ color: 'salmon' }}>NEMESIS Language School</span> is the one of the top ranked Language School in Bangladesh. We are providing our services since 1979. Not only the Language School, but also we are working as a full fledged Language trainer throught the world. We have the most skilled instructors and trainers to train you and make your language learning easier and faster. <br />
                             <span style={{ color: 'salmon' }}>NEMESIS Language Club</span> has achived many awards and without any charge they are working for developing the languages. Four Languages are developing and trained by this academy: English, Japanese, French and German. <br />
                         </p>
-                        <h3>Contact Us</h3>
+                        <h2>Contact Us</h2> <hr />
                         <span style={{ fontSize: '18px' }}><strong>Address: </strong> Bashundhara R/A, Block: A, Road: 3</span> <br />
                         <span style={{ fontSize: '18px' }}><strong>Email: </strong> email@nemesis.lang.com</span> <br />
                         <span style={{ fontSize: '18px' }}><strong>Phone: </strong> +880 1728385991</span> <br />
